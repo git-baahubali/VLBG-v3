@@ -1,0 +1,27 @@
+.new-connection{
+    width: 14rem;
+    transition: width ;
+    animation-name: streching;
+    /* background-color: ; */
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 5s;
+}
+
+@keyframes streching{
+
+    0%{
+        width: 16rem;
+        /* background-color: rgb(255, 255, 10); */
+    }
+
+    50%{
+        width: 2rem;
+        /* background-color: blue; */
+    }
+    100%{
+        width: 16rem;
+        /* background-color: yellow; */
+
+    }
+}
