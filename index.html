@@ -20,11 +20,14 @@
   </head>
   <body>
     <div class="flex justify-center bg-yellow-0">
-      <div class="sm:max-w-xl">
+      <div class="max-w-xl sm:max-w-full">
+
         <div class="bg-yellow-400 p-1 border-2 rounded-md">
-          <img src="images/VLBG.png" alt="" />
+          <img 
+          src="images/VLBG.png" alt="" />
         </div>
-        <!-- -----------------------New Connection--------------------------- -->
+        <div class="flex flex-col md:flex-row sm:justify-between px-10">
+          <!-- -----------------------New Connection--------------------------- -->
         <div class="my-4 flex flex-col items-center bg-slate-0">
           <h6
             onclick="window.location='https://my.ebharatgas.com/bharatgas/LPGServices/FillKYCForm?distributorCode=200017&districtCode=4505&stateCode=45';"
@@ -80,8 +83,8 @@
           <div class="grid grid-cols-2 m-1 my-4 gap-2 text-lg text-cyan-900">
             <a
               target="_blank"
-              href="https://my.ebharatgas.com/bharatgas/User/Login?ReturnUrl=%2fbharatgas%2fBookCylinder%2fCreateOrder"
-              class="border-2 border-cyan-800 h-24 rounded-lg shadow-md flex flex-col justify-center items-center active:bg-yellow-400 hover:bg-yellow-200"
+              href="https://my.ebharatgas.com/LPGServices/FillKYCForm?distributorCode=188968&districtCode=4509&stateCode=45"
+              class="border-2 border-cyan-800 h-24 rounded-lg shadow-md flex flex-col justify-center items-center active:bg-yellow-400 hover:bg-yellow-200 md:max-w-[300px]"
             >
               <i class="fa-regular fa-arrow-pointer"></i>
               Online Booking
@@ -89,7 +92,7 @@
             <a
               target="_blank"
               href="https://my.ebharatgas.com/bharatgas/User/Login?ReturnUrl=%2fbharatgas%2fBookCylinder%2fCreateOrder"
-              class="border-2 border-cyan-800 h-24 rounded-lg shadow-md flex flex-col justify-center items-center active:bg-yellow-400 hover:bg-yellow-200"
+              class="border-2 border-cyan-800 h-24 rounded-lg shadow-md flex flex-col justify-center items-center active:bg-yellow-400 hover:bg-yellow-200 md:max-w-[300px]"
             >
               <i class="fa-regular fa-message-sms"></i>
               SMS
@@ -97,7 +100,7 @@
             <a
               target="_blank"
               href="https://my.ebharatgas.com/bharatgas/User/Login?ReturnUrl=%2fbharatgas%2fBookCylinder%2fCreateOrder"
-              class="border-2 border-cyan-800 h-24 rounded-lg shadow-md flex flex-col justify-center items-center active:bg-yellow-400 hover:bg-yellow-200"
+              class="border-2 border-cyan-800 h-24 rounded-lg shadow-md flex flex-col justify-center items-center active:bg-yellow-400 hover:bg-yellow-200 md:max-w-[300px]"
             >
               <i class="fa-solid fa-phone-volume"></i>
               IVR
@@ -105,7 +108,7 @@
             <a
               target="_blank"
               href="https://ravindergasmohali.com/mobile-app-for-android-iphones/"
-              class="border-2 border-cyan-800 h-24 rounded-lg shadow-md flex flex-col justify-center items-center active:bg-yellow-400 hover:bg-yellow-200"
+              class="border-2 border-cyan-800 h-24 rounded-lg shadow-md flex flex-col justify-center items-center active:bg-yellow-400 hover:bg-yellow-200 md:max-w-[300px]"
             >
               <i class="fa-solid fa-mobile-screen-button"></i>
               Mobile App
@@ -113,14 +116,15 @@
           </div>
         </div>
       </div>
+        </div>
     </div>
     <!-- ------------Footer---------------------------------------------------- -->
     <div
-      class="footer bg-yellow-400 h-12 flex justify-center sticky bottom-0 px-6 my-1 rounded-full left-10 right-10"
+      class="footer bg-yellow-400 h-12 flex justify-center sticky bottom-0 px-6 my-1 rounded-full  md:max-w-xs left-10 right-10 md:left-[40%] "
     >
       <button
         href="tel:+91-81065-01965"
-        class="text-2xl text-blue-900 font-bold"
+        class="text-2xl text-blue-900 font-bold "
       >
         Contact Us
       </button>
